@@ -1,12 +1,12 @@
 
 import React from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import CaseStudyCard from './components/CaseStudyCard';
-import About from './components/About';
-import Experience from './components/Experience';
-import Footer from './components/Footer';
-import { CASE_STUDIES } from './constants';
+import Navbar from './Navbar.tsx';
+import Hero from './Hero.tsx';
+import CaseStudyCard from './CaseStudyCard.tsx';
+import About from './About.tsx';
+import Experience from './Experience.tsx';
+import Footer from './Footer.tsx';
+import { CASE_STUDIES } from './constants.tsx';
 
 const App: React.FC = () => {
   return (
